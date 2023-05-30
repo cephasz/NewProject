@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient(45deg, rgb(248, 2, 2),rgb(235, 11, 67),rgba(255, 0, 34, 0.733)), url("/body-bg.jpg"); */
+    background-image: url(./body-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sidebar {
+    width: 90px; /* Adjust the width as needed */
+    background-color: #01617ea1; /* Set the background color */
+    height: 100vh;
+    margin-left: -1%;
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 10px; /* Remove default padding */
+  }
+  
+  .sidebar li {
+    padding: 10px; /* Add some padding to the list items */
+  }
+  
+  .sidebar li a {
+    text-decoration:none; /* Remove underline from links */
+    color: #ffffff; /* Set the link color */
+  }
+  
+  /* Hover effect */
+  .sidebar li a:hover {
+    text-decoration: underline;
+    font-style:italic;
+    /* background-color: #ffffff;  */
+  }
+  
+
+
+#formContent{
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 32%;
+    left: 10%;
+    /* margin-top: 3%; */
+    height: 85vh;
+    position: absolute;
+    top: 7%;
+    border-radius: 8px;
+    box-shadow: 6px 3px 6px rgba(1, 63, 60, 0.486);
+}
+.form-control{
+    width: 80%;
+    margin: 3px;
+    border: none;
+    border-bottom:1px solid rgb(173, 171, 171);
+    outline: none;
+    padding: 5px;
+    margin-left: 11%;
+}
+.label{
+    margin-left: 11%;
+    font-family: Cascadia code semibold;
+    font-size: 18px;
+    
+}
+.labels{
+    margin-left: 11%;
+    font-family: Segoe UI black;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+span a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span{
+    margin-left: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.btn-login {
+    background-color: rgb(4, 8, 245);
+    border: 20px;
+    border-radius: 5px;
+    font-weight:bolder;
+    /* padding: 10 10px; */
+    color: #ffffff;
+    margin-left: 10%;
+    width: 20px;
+}
+
+.btn-login a{
+    /* background-color: rgb(4, 8, 245); */
+    border: 20px;
+    border-radius: 5px;
+    font-size: 80%;
+    padding: 10 10px;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+#logger{
+    width: 40%;
+    color: #ffffff;
+}
+
+
+#logger:hover{
+    background-color: rgba(19, 112, 0, 0.822);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(2, 34, 122);
+}
